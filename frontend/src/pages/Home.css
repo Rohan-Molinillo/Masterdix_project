@@ -1,0 +1,25 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banniere {
+  width: 100vw;
+}
+
+.rounded_logo {
+  padding-bottom: 2.5rem;
+  width: 40%;
+}
+
+.presentation {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}

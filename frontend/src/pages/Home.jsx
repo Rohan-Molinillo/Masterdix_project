@@ -1,36 +1,38 @@
-import Counter from "../components/Counter";
-import logo from "../assets/logo.svg";
+import NavBar from "../components/NavBar";
+import "./Home.css";
 
 export default function Home() {
   return (
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>Hello Vite + React !</p>
-
-      <Counter />
-
-      <p>
-        Edit <code>App.jsx</code> and save to test HMR updates.
-      </p>
-      <p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {" | "}
-        <a
-          className="App-link"
-          href="https://vitejs.dev/guide/features.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vite Docs
-        </a>
-      </p>
-    </header>
+    <div className="home-container">
+      <header>
+        <img
+          className="banniere"
+          alt="Logo Banniere"
+          src="src/assets/logo_banniere.png"
+        />
+      </header>
+      <section className="presentation">
+        <img
+          className="rounded_logo"
+          alt="Logo MDX"
+          src="src/assets/logo_round.png"
+        />
+        <p>
+          Bonjour, je me présente, Molinillo Rohan, née un 17 février. Gameur et
+          passioné de jeux vidéos, Youtube, Twitch et tout ce qui touche au
+          monde du Gaming. Je passe mon temps libre à streamer mes parties de
+          jeux solo ou avec des amis, monter des videos pour mes réseaux, créé
+          des compositions ou des overlays sur photoshop. J'aime aussi découvrir
+          et apprendre de nouvelle chose. Je fonctionne beaucoup en auto
+          didacte. J'ai appris à maitrisé des logiciel comme Photoshop ou
+          Premier Pro tout seul comme un grand. Actuellement j'apprend les
+          languages HTML, CSS, JAVA, PHP...etc, pour devenir dévloppeur web.
+          J'ai créé ce site avec mes connaissances apprises sur openclassrooms.
+        </p>
+      </section>
+      <footer className="App-header">
+        <NavBar />
+      </footer>
+    </div>
   );
 }

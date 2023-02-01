@@ -1,0 +1,30 @@
+.NavBar {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+}
+
+.hamburger-menu {
+  padding-right: 1rem;
+}
+
+.logo_banniere {
+  width: 40%;
+}
+
+.profil_logo {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  height: 3.5rem;
+}
+
+.link {
+  padding-right: 1rem;
+  position: absolute;
+  bottom: 100%;
+  z-index: 100;
+  right: 0;
+}
