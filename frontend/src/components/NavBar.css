@@ -28,3 +28,8 @@
   z-index: 100;
   right: 0;
 }
+
+.Home-footer {
+  position: sticky;
+  bottom: 0;
+}

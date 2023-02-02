@@ -9,18 +9,26 @@ export default function NavBar() {
   return (
     <div className="nav-container">
       <nav className="NavBar">
-        <img
-          className="profil_logo"
-          alt="Logo profil"
-          src="src/assets/profil_logo.png"
-        />
+        <a href="../pages/login">
+          <img
+            className="profil_logo"
+            alt="Logo profil"
+            src="src/assets/profil_logo.png"
+          />
+        </a>
         {open && (
           <div className="link">
-            <Link to="/home" className="home">
+            <Link to="/" className="home">
               Home
             </Link>
-            <Link to="/history" className="home">
+            <Link to="/histoire" className="reseaux">
               Mon histoire
+            </Link>
+            <Link to="/reseaux" className="reseaux">
+              Mes Reseaux
+            </Link>
+            <Link to="/login" className="login">
+              Login
             </Link>
           </div>
         )}

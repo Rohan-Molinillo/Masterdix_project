@@ -1,6 +1,15 @@
+@font-face {
+  font-family: "archerus";
+  src: url("../assets/acherusgrotesque.otf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
   background: black;
   color: white;
+}
+
+body {
+  font-family: "archerus";
 }
