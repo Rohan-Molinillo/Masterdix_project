@@ -3,7 +3,7 @@
   src: url("../assets/acherusgrotesque.otf") format("truetype");
 }
 
-.home-container {
+.history-container {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,4 +26,16 @@
   justify-content: center;
   align-items: center;
   text-align: left;
+}
+
+.History-footer {
+  position: sticky;
+  bottom: 0;
+}
+
+.master-system,
+.megadrive,
+.nintendo64,
+.nintendo-ds {
+  width: 50vw;
 }

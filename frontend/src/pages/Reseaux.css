@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "archerus";
+  src: url("../assets/acherusgrotesque.otf") format("truetype");
+}
+
+.reseaux-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banniere-reseaux {
+  width: 100vw;
+}
+
+.rounded_logo {
+  padding-bottom: 2.5rem;
+  width: 40%;
+}
+
+.Reseaux-footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+}
+
+.lien-reseaux {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.image-lien {
+  width: 50%;
+}
+
+.clic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}

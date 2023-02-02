@@ -30,7 +30,7 @@ export default function Home() {
           J'ai créé ce site avec mes connaissances apprises sur openclassrooms.
         </p>
       </section>
-      <footer className="App-header">
+      <footer className="Home-footer">
         <NavBar />
       </footer>
     </div>
